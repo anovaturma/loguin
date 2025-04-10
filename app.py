@@ -61,4 +61,5 @@ def plataforma():
     return "<script>window.location.href='https://cyberdigital.com.br';</script>"
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host="0.0.0.0", port=10000)
+
